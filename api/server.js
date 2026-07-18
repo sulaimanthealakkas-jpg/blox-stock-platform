@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+const stockCollector = require("./services/stockCollector");
 const express = require("express");
 const cors = require("cors");
 
