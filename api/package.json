@@ -1,0 +1,16 @@
+{
+  "name": "blox-stock-api",
+  "version": "1.0.0",
+  "description": "API for the Blox Stock Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "axios": "^1.10.0",
+    "node-cron": "^4.2.1"
+  }
+}
